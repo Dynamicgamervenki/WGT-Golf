@@ -1,0 +1,148 @@
+.featuredHeader {
+    background-color: rgb(41, 41, 41);
+    max-width: 560%;
+    max-height: 194%;
+    flex-basis: 100px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: rgb(27, 27, 27);
+    flex-direction: row;
+    -unity-text-align: upper-left;
+    justify-content: flex-start;
+}
+
+.cardScrollView {
+    flex-basis: 700px;
+    background-color: rgb(255, 255, 255);
+    max-height: 1920px;
+    flex-grow: 0;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.cardContainer {
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    border-bottom-left-radius: 21px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    background-color: rgb(94, 94, 94);
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 700px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 21px;
+    border-bottom-left-radius: 21px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.bulletContainer {
+    position: absolute;
+    width: 360px;
+    background-color: rgba(94, 86, 86, 0);
+    height: 25px;
+    right: 120px;
+    top: auto;
+    bottom: 19px;
+    flex-direction: row;
+    -unity-text-align: upper-left;
+    justify-content: space-evenly;
+    align-self: auto;
+    align-content: auto;
+    align-items: stretch;
+}
+
+.bullet {
+    border-left-color: rgb(19, 18, 18);
+    border-right-color: rgb(19, 18, 18);
+    border-top-color: rgb(19, 18, 18);
+    border-bottom-color: rgb(19, 18, 18);
+    border-top-left-radius: 79px;
+    border-top-right-radius: 79px;
+    border-bottom-right-radius: 79px;
+    border-bottom-left-radius: 79px;
+    flex-basis: 25px;
+    flex-grow: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("project://database/Assets/Sprites/Game%20Selection/Circle.png?fileID=2800000&guid=5caa94860eec89344bd73f29f0790bcd&type=3#Circle");
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    margin-right: 0;
+    display: flex;
+    visibility: visible;
+    overflow: visible;
+}
+
+.headerText {
+    flex-grow: 1;
+    -unity-font-style: bold;
+    font-size: 47px;
+    -unity-text-align: middle-center;
+    justify-content: flex-start;
+    color: rgb(226, 226, 226);
+    flex-basis: 200px;
+}
+
+FeaturedCard > #CardHeader > #CountDown {
+    -unity-text-align: middle-right;
+    padding-right: 20px;
+}
+
+.cardTitleText {
+    position: relative;
+    flex-basis: auto;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    font-size: 57px;
+    bottom: -446px;
+    right: 0;
+    -unity-text-align: upper-center;
+    flex-grow: 0;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-self: center;
+    white-space: normal;
+    flex-wrap: wrap;
+}
+
+.cardDescriptionText {
+    position: relative;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#LegacyRuntime");
+    font-size: 41px;
+    bottom: -468px;
+    right: -64px;
+}
+
+.modeCard {
+    position: relative;
+    flex-direction: column;
+    background-image: url("project://database/Assets/Sprites/Game%20Selection/Mode%20Card%20Small.png?fileID=2800000&guid=710602b781e7d8b4895cca4c33d72fa0&type=3#Mode Card Small");
+    -unity-background-scale-mode: stretch-to-fill;
+    flex-basis: auto;
+    flex-grow: 1;
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    display: flex;
+}

@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/Styles/FeaturedCard.uss?fileID=7433441132597879392&amp;guid=a662173bbea598d488c7e7e00b3f4f30&amp;type=3#FeaturedCard" />
+    <CustomControls.FeaturedCard style="flex-grow: 1; flex-basis: 600px; max-width: 600px; max-height: 800px;" />
+</ui:UXML>

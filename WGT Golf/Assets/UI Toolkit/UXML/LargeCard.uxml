@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/Styles/LargeCard.uss?fileID=7433441132597879392&amp;guid=d3fb3f0569fd84a4aa951100acf4a5ef&amp;type=3#LargeCard" />
+    <ui:VisualElement name="BgContainer" style="flex-grow: 1; flex-basis: 600px; max-width: 600px; max-height: 800px; color: rgb(0, 0, 0); background-color: rgb(147, 147, 147); right: auto; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 36px; border-bottom-left-radius: 37px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); background-image: url(&quot;project://database/Assets/Sprites/Game%20Selection/7bb2ee435aae3f916afd90737c5c4a6203a51a89.jpg?fileID=2800000&amp;guid=93f12cd3a4d47ff40af6a21432b1d4cc&amp;type=3#7bb2ee435aae3f916afd90737c5c4a6203a51a89&quot;);">
+        <ui:Button text="&#10;" style="flex-grow: 1; border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); background-color: rgba(188, 188, 188, 0); position: absolute; height: 792px; width: 596px; flex-shrink: 0;" />
+        <ui:VisualElement style="flex-grow: 2; background-image: resource(&apos;Mode Card Small&apos;); -unity-text-align: upper-center; font-size: 59px; justify-content: flex-end;">
+            <ui:VisualElement style="flex-grow: 0; flex-basis: 200px; flex-direction: row; justify-content: flex-start; align-self: auto; align-items: stretch;">
+                <ui:VisualElement style="flex-grow: 0.5; background-image: url(&quot;project://database/Assets/Sprites/Game%20Selection/Division-EliteLevel-03-%20Large%201.png?fileID=2800000&amp;guid=a9d5f9d6b33ed6f4596db4bda8420057&amp;type=3#Division-EliteLevel-03- Large 1&quot;); -unity-background-scale-mode: scale-to-fit; background-size: 50% 50%; display: none; flex-basis: 150px;" />
+                <ui:Label text="Tournaments&#10;" name="Label" class="title" style="color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 52px; top: auto; flex-grow: 0.5; flex-shrink: 1; -unity-text-align: middle-right;" />
+            </ui:VisualElement>
+            <ui:Label text="Compete in leaderboards and earn top prizes" class="description" style="flex-wrap: wrap; flex-grow: 0; white-space: normal; top: -40px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
