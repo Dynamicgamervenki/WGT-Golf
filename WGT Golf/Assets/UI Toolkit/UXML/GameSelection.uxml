@@ -1,7 +1,6 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:Template name="FeaturedCard" src="project://database/Assets/UI%20Toolkit/UXML/FeaturedCard.uxml?fileID=9197481963319205126&amp;guid=71a63bd3f80e2484e8c0e0d9e4a99059&amp;type=3#FeaturedCard" />
     <ui:Template name="LargeCard" src="project://database/Assets/UI%20Toolkit/UXML/LargeCard.uxml?fileID=9197481963319205126&amp;guid=6d9ad950c7d911f4f9ecda55d2917dd8&amp;type=3#LargeCard" />
-    <Style src="project://database/Assets/Resources/Styles/LargeCard.uss?fileID=7433441132597879392&amp;guid=d3fb3f0569fd84a4aa951100acf4a5ef&amp;type=3#LargeCard" />
     <ui:VisualElement name="Bg_GameSelection" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprites/Game%20Selection/Game%20Selection%20BG.png?fileID=2800000&amp;guid=5c3d4d4d32112e642be123d347fe7336&amp;type=3#Game Selection BG&quot;);">
         <ui:VisualElement name="CommonHeader" style="flex-grow: 0; flex-basis: 200px; background-color: rgba(212, 39, 39, 0); max-height: 200px; flex-direction: row;" />
         <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row; justify-content: space-evenly;">
